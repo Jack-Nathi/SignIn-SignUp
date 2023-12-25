@@ -1,0 +1,93 @@
+.heading {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+p {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.name,
+.Email {
+  background-color: rgb(213, 224, 234);
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 20px;
+}
+
+.pass {
+  background-color: rgb(213, 224, 234);
+  margin-top: 15px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 20px;
+}
+
+.name:focus,
+.pass:focus,
+.Email:focus,
+.pass:focus {
+  outline: none;
+}
+
+.btn1 {
+  background-color: rgb(219, 194, 67);
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 140px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.para {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30%;
+  margin-bottom: 0;
+}
+
+.para2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.para-U {
+  rotate: 0 1 0 180deg;
+}
+
+.btn {
+  background-color: transparent;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(176, 176, 176);
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-U {
+  rotate: 0 1 0 180deg;
+}
